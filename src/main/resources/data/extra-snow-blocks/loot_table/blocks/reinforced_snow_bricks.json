@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "extra-snow-blocks:block/reinforced_snow_bricks"
+          "name": "extra-snow-blocks:reinforced_snow_bricks"
         }
       ],
       "conditions": [

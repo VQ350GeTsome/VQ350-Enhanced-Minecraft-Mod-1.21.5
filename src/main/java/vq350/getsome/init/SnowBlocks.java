@@ -79,7 +79,7 @@ public class SnowBlocks {
                     AbstractBlock.Settings.copy(Blocks.OAK_LOG)
             ),
             JUNGLE_DOWELED_REINFORCED_SNOW = SnowBlocks.register(
-                    "JUNGLE_doweled_reinforced_snow",
+                    "jungle_doweled_reinforced_snow",
                     PillarBlock::new,
                     AbstractBlock.Settings.copy(Blocks.OAK_LOG)
             ),

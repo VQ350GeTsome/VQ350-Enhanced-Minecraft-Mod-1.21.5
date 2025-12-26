@@ -7,6 +7,35 @@
   "item.extra-snow-blocks.reinforced_snow_bricks" : "Reinforced Snow Bricks",
   "block.extra-snow-blocks.reinforced_snow_bricks" : "Reinforced Snow Bricks",
 
+
+
   "item.extra-snow-blocks.oak_doweled_reinforced_snow" : "Oak Doweled Reinforced Snow",
-  "block.extra-snow-blocks.oak_doweled_reinforced_snow" : "Oak Doweled Reinforced Snow"
+  "block.extra-snow-blocks.oak_doweled_reinforced_snow" : "Oak Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.birch_doweled_reinforced_snow" : "Birch Doweled Reinforced Snow",
+  "block.extra-snow-blocks.birch_doweled_reinforced_snow" : "Birch Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.spruce_doweled_reinforced_snow" : "Spruce Doweled Reinforced Snow",
+  "block.extra-snow-blocks.spruce_doweled_reinforced_snow" : "Spruce Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.acacia_doweled_reinforced_snow" : "Acacia Doweled Reinforced Snow",
+  "block.extra-snow-blocks.acacia_doweled_reinforced_snow" : "Acacia Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.jungle_doweled_reinforced_snow" : "Jungle Doweled Reinforced Snow",
+  "block.extra-snow-blocks.jungle_doweled_reinforced_snow" : "Jungle Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.dark_oak_doweled_reinforced_snow" : "Dark Oak Doweled Reinforced Snow",
+  "block.extra-snow-blocks.dark_oak_doweled_reinforced_snow" : "Dark Oak Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.cherry_doweled_reinforced_snow" : "Cherry Doweled Reinforced Snow",
+  "block.extra-snow-blocks.cherry_doweled_reinforced_snow" : "Cherry Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.mangrove_doweled_reinforced_snow" : "Mangrove Doweled Reinforced Snow",
+  "block.extra-snow-blocks.mangrove_doweled_reinforced_snow" : "Mangrove Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.warped_doweled_reinforced_snow" : "Warped Doweled Reinforced Snow",
+  "block.extra-snow-blocks.warped_doweled_reinforced_snow" : "Warped Doweled Reinforced Snow",
+
+  "item.extra-snow-blocks.crimson_doweled_reinforced_snow" : "Crimson Doweled Reinforced Snow",
+  "block.extra-snow-blocks.crimson_doweled_reinforced_snow" : "Crimson Doweled Reinforced Snow"
 }
