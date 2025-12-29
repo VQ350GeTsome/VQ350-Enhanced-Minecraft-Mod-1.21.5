@@ -10,15 +10,21 @@
   "item.extra-snow-blocks.reinforced_snow_bricks" : "Reinforced Snow Bricks",
   "block.extra-snow-blocks.reinforced_snow_bricks" : "Reinforced Snow Bricks",
 
-  "item.extra-snow-blocks.reinforced_snow_bricks_slab" : "Reinforced Snow Bricks Slab",
-  "block.extra-snow-blocks.reinforced_snow_bricks-slab" : "Reinforced Snow Bricks Slab",
+  "item.extra-snow-blocks.reinforced_snow_bricks_slab" : "Reinforced Snow Brick Slab",
+  "block.extra-snow-blocks.reinforced_snow_bricks-slab" : "Reinforced Snow Brick Slab",
+
+  "item.extra-snow-blocks.reinforced_snow_bricks_stairs" : "Reinforced Snow Brick Stairs",
+  "block.extra-snow-blocks.reinforced_snow_bricks-stairs" : "Reinforced Snow Brick Stairs",
 
 
   "item.extra-snow-blocks.reinforced_snow_tiles" : "Reinforced Snow Tiles",
   "block.extra-snow-blocks.reinforced_snow_tiles" : "Reinforced Snow Tiles",
 
-  "item.extra-snow-blocks.reinforced_snow_tiles_slab" : "Reinforced Snow Tiles Slab",
-  "block.extra-snow-blocks.reinforced_snow_tiles_slab" : "Reinforced Snow Tiles Slab",
+  "item.extra-snow-blocks.reinforced_snow_tiles_slab" : "Reinforced Snow Tile Slab",
+  "block.extra-snow-blocks.reinforced_snow_tiles_slab" : "Reinforced Snow Tile Slab",
+
+  "item.extra-snow-blocks.reinforced_snow_tiles_stairs" : "Reinforced Snow Tile Stairs",
+  "block.extra-snow-blocks.reinforced_snow_tiles_stairs" : "Reinforced Snow Tile Stairs",
 
 
   "item.extra-snow-blocks.oak_doweled_reinforced_snow" : "Oak Doweled Reinforced Snow",
@@ -60,5 +66,11 @@
   "block.extra-snow-blocks.frosted_log" : "Frosted Log",
 
   "item.extra-snow-blocks.frosted_planks" : "Frosted Planks",
-  "block.extra-snow-blocks.frosted_planks" : "Frosted Planks"
+  "block.extra-snow-blocks.frosted_planks" : "Frosted Planks",
+
+  "item.extra-snow-blocks.frosted_plank_slab" : "Frosted Plank Slab",
+  "block.extra-snow-blocks.frosted_plank_slab" : "Frosted Plank Slab",
+
+  "item.extra-snow-blocks.frosted_plank_stairs" : "Frosted Plank Stairs",
+  "block.extra-snow-blocks.frosted_plank_stairs" : "Frosted Plank Stairs"
 }

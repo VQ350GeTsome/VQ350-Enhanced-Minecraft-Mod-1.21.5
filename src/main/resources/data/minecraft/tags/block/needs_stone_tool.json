@@ -5,6 +5,10 @@
     "extra-snow-blocks:reinforced_snow_bricks_slab",
 
     "extra-snow-blocks:reinforced_snow_tiles",
-    "extra-snow-blocks:reinforced_snow_tiles_slab"
+    "extra-snow-blocks:reinforced_snow_tiles_slab",
+
+    "extra-snow-blocks:frosted_log",
+    "extra-snow-blocks:frosted_planks",
+    "extra-snow-blocks:frosted_plank_slab"
   ]
 }

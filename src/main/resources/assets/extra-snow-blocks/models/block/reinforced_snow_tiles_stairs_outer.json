@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "extra-snow-blocks:block/reinforced_snow_tiles",
+    "side": "extra-snow-blocks:block/reinforced_snow_tiles",
+    "top": "extra-snow-blocks:block/reinforced_snow_tiles"
+  }
+}

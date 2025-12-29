@@ -6,6 +6,7 @@ import net.minecraft.registry.*;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
+import net.minecraft.structure.StrongholdGenerator;
 import net.minecraft.util.Identifier;
 
 import vq350.getsome.ExtraSnowBlocks;
@@ -65,6 +66,14 @@ public class SnowBlocks {
                     SlabBlock::new,
                     AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).requiresTool()
             ),
+            REINFORCED_SNOW_BRICKS_STAIRS = SnowBlocks.register(
+              "reinforced_snow_bricks_stairs",
+            settings ->  new StairsBlock(
+                        SnowBlocks.REINFORCED_SNOW_BRICKS.getDefaultState(),
+                        settings
+                    ),
+                    AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).requiresTool()
+            ),
 
             REINFORCED_SNOW_TILES = SnowBlocks.register(
                     "reinforced_snow_tiles",
@@ -74,6 +83,14 @@ public class SnowBlocks {
             REINFORCED_SNOW_TILES_SLAB = SnowBlocks.register(
                     "reinforced_snow_tiles_slab",
                     SlabBlock::new,
+                    AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILES).requiresTool()
+            ),
+            REINFORCED_SNOW_TILES_STAIRS = SnowBlocks.register(
+                    "reinforced_snow_tiles_stairs",
+                    settings ->  new StairsBlock(
+                            SnowBlocks.REINFORCED_SNOW_TILES.getDefaultState(),
+                            settings
+                    ),
                     AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILES).requiresTool()
             ),
 
@@ -140,12 +157,25 @@ public class SnowBlocks {
             FROSTED_LOG = SnowBlocks.register(
                     "frosted_log",
                     PillarBlock::new,
-                    AbstractBlock.Settings.copy(Blocks.OAK_LOG)
+                    AbstractBlock.Settings.copy(Blocks.OAK_LOG).requiresTool()
             ),
             FROSTED_PLANKS = SnowBlocks.register(
                     "frosted_planks",
                     Block::new,
-                    AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)
+                    AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).requiresTool()
+            ),
+            FROSTED_PLANK_SLAB = SnowBlocks.register(
+                    "frosted_plank_slab",
+                    SlabBlock::new,
+                    AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).requiresTool()
+            ),
+            FROSTED_PLANK_STAIRS = SnowBlocks.register(
+                    "frosted_plank_stairs",
+            settings -> new StairsBlock(
+                        SnowBlocks.FROSTED_PLANKS.getDefaultState(),
+                        settings
+                    ),
+                    AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).requiresTool()
             );
 
     //</editor-fold>
@@ -159,16 +189,24 @@ public class SnowBlocks {
                 .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_BRICKS));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_BRICKS_SLAB));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+                .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_BRICKS_STAIRS));
 
         // Tiles
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_TILES));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_TILES_SLAB));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+                .register((itemGroup) -> itemGroup.add(SnowBlocks.REINFORCED_SNOW_TILES_STAIRS));
 
         // Planks
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register((itemGroup) -> itemGroup.add(SnowBlocks.FROSTED_PLANKS));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+                .register((itemGroup) -> itemGroup.add(SnowBlocks.FROSTED_PLANK_SLAB));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+                .register((itemGroup) -> itemGroup.add(SnowBlocks.FROSTED_PLANK_STAIRS));
 
 
         // Doweled Snow
