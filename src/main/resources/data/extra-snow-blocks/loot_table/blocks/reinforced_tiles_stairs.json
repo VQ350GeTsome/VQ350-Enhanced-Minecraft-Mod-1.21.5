@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "extra-snow-blocks:reinforced_tiles_stairs"
+          "name": "extra-snow-blocks:reinforced_snow_tiles_stairs"
         }
       ],
       "conditions": [
