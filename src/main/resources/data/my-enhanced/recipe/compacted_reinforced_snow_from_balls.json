@@ -1,0 +1,14 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    "##",
+    "##"
+  ],
+  "key" : {
+    "#": "my-enhanced:reinforced_snow"
+  },
+  "result" : {
+    "id" : "my-enhanced:compacted_reinforced_snow",
+    "count" : 1
+  }
+}

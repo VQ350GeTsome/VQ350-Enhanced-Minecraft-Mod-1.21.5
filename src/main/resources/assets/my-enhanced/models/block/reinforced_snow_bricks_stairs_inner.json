@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "my-enhanced:block/reinforced_snow_bricks",
+    "side": "my-enhanced:block/reinforced_snow_bricks",
+    "top": "my-enhanced:block/reinforced_snow_bricks"
+  }
+}

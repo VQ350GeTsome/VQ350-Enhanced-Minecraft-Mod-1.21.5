@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"extra-snow-blocks" {
+		"my-enhanced" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

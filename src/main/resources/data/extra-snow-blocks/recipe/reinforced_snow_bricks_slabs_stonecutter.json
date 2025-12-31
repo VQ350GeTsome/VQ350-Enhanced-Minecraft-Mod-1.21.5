@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "extra-snow-blocks:reinforced_snow_bricks",
-  "result": {
-    "id": "extra-snow-blocks:reinforced_snow_bricks_slab",
-    "count": 2
-  }
-}

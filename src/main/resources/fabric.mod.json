@@ -1,34 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "extra-snow-blocks",
+	"id": "my-enhanced",
 	"version": "1.2.0",
-	"name": "Extra Snow Blocks",
-	"description": "Extra snow blocks for building.",
+	"name": "VQ350GeTsome's Enhanced Minecraft Mod",
+	"description": "Adds some vanilla inspired items, blocks, and more.",
 	"authors": [
 		"Harrison Davis"
 	],
 	"contact": {
-		"homepage": "https://github.com/VQ350GeTsome/minecraft-extra-snow-blocks-1.21.5",
-		"sources": "https://github.com/VQ350GeTsome/minecraft-extra-snow-blocks-1.21.5"
+		"homepage": "https://github.com/VQ350GeTsome/VQ350-Enhanced-Minecraft-Mod-1.21.5",
+		"sources": "https://github.com/VQ350GeTsome/VQ350-Enhanced-Minecraft-Mod-1.21.5"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/extra-snow-blocks/icon.png",
+	"icon": "assets/my-enhanced/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"vq350.getsome.ExtraSnowBlocks"
+			"vq350.getsome.MyEnhanced"
 		],
 		"client": [
-			"vq350.getsome.ExtraSnowBlocksClient"
+			"vq350.getsome.MyEnhancedClient"
 		],
 		"fabric-datagen": [
-			"vq350.getsome.ExtraSnowBlocksDataGenerator"
+			"vq350.getsome.MyEnhancedDataGenerator"
 		]
 	},
 	"mixins": [
-		"extra-snow-blocks.mixins.json",
+		"my-enhanced.mixins.json",
 		{
-			"config": "extra-snow-blocks.client.mixins.json",
+			"config": "my-enhanced.client.mixins.json",
 			"environment": "client"
 		}
 	],

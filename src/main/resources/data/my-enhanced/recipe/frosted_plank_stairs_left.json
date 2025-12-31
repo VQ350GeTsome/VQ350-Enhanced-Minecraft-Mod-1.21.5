@@ -1,0 +1,15 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key" : {
+    "#": "my-enhanced:frosted_planks"
+  },
+  "result": {
+    "id" : "my-enhanced:frosted_plank_stairs",
+    "count" : 4
+  }
+}

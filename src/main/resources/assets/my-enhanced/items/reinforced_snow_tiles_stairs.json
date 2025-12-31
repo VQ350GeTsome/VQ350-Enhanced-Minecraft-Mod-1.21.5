@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "my-enhanced:block/reinforced_snow_tiles_stairs"
+  }
+}

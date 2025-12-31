@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "my-enhanced:block/frosted_plank_slab"
+    },
+    "type=double": {
+      "model": "my-enhanced:block/frosted_planks"
+    },
+    "type=top": {
+      "model": "my-enhanced:block/frosted_plank_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "my-enhanced:block/jungle_doweled_reinforced_snow_top",
+    "side": "my-enhanced:block/jungle_doweled_reinforced_snow"
+  }
+}

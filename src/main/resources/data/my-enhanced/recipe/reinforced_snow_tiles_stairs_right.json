@@ -1,0 +1,15 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key" : {
+    "#": "my-enhanced:reinforced_snow_tiles"
+  },
+  "result": {
+    "id" : "my-enhanced:reinforced_snow_tiles_stairs",
+    "count" : 4
+  }
+}

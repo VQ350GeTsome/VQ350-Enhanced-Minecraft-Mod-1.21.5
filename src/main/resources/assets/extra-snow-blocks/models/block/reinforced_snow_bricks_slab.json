@@ -1,8 +1,0 @@
-{
-  "parent" : "minecraft:block/slab",
-  "textures" : {
-    "bottom" : "extra-snow-blocks:block/reinforced_snow_bricks",
-    "side" : "extra-snow-blocks:block/reinforced_snow_bricks",
-    "top" : "extra-snow-blocks:block/reinforced_snow_bricks"
-  }
-}

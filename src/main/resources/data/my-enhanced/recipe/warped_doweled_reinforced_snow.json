@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    " L ",
+    "L#L",
+    " L "
+  ],
+  "key" : {
+    "L": "minecraft:warped_stem",
+    "#": "my-enhanced:compacted_reinforced_snow"
+  },
+  "result": {
+    "id" : "my-enhanced:warped_doweled_reinforced_snow",
+    "count" : 4
+  }
+}

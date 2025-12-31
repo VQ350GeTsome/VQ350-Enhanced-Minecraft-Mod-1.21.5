@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    " S ",
+    "SDS",
+    " S "
+  ],
+  "key" : {
+    "D": "minecraft:acacia_log",
+    "S": "minecraft:snowball"
+  },
+  "result": {
+    "id" : "my-enhanced:permafrost",
+    "count" : 2
+  }
+}

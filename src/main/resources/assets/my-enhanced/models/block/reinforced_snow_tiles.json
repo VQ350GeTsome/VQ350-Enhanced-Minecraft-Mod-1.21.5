@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "my-enhanced:block/reinforced_snow_tiles"
+  }
+}

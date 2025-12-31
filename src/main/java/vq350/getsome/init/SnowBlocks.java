@@ -6,10 +6,9 @@ import net.minecraft.registry.*;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
-import net.minecraft.structure.StrongholdGenerator;
 import net.minecraft.util.Identifier;
 
-import vq350.getsome.ExtraSnowBlocks;
+import vq350.getsome.MyEnhanced;
 
 public class SnowBlocks {
 
@@ -40,11 +39,11 @@ public class SnowBlocks {
     }
 
     private static RegistryKey<Block> keyOfBlock(String name) {
-        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ExtraSnowBlocks.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MyEnhanced.MOD_ID, name));
     }
 
     private static RegistryKey<Item> keyOfItem(String name) {
-        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ExtraSnowBlocks.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MyEnhanced.MOD_ID, name));
     }
 
     //<editor-fold defaultstate="collapsed" desc=" Blocks ">

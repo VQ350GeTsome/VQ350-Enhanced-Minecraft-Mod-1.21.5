@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "extra-snow-blocks:reinforced_snow_bricks",
-    "extra-snow-blocks:reinforced_snow_bricks_slab",
+    "my-enhanced:reinforced_snow_bricks",
+    "my-enhanced:reinforced_snow_bricks_slab",
 
-    "extra-snow-blocks:reinforced_snow_tiles",
-    "extra-snow-blocks:reinforced_snow_tiles_slab",
+    "my-enhanced:reinforced_snow_tiles",
+    "my-enhanced:reinforced_snow_tiles_slab",
 
-    "extra-snow-blocks:frosted_log",
-    "extra-snow-blocks:frosted_planks",
-    "extra-snow-blocks:frosted_plank_slab"
+    "my-enhanced:frosted_log",
+    "my-enhanced:frosted_planks",
+    "my-enhanced:frosted_plank_slab"
   ]
 }

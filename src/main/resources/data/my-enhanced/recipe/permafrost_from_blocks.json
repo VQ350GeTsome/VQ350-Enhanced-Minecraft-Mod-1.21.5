@@ -1,0 +1,11 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients" : [
+    "minecraft:dirt",
+    "minecraft:snow_block"
+  ],
+  "result": {
+    "id" : "my-enhanced:permafrost",
+    "count" : 2
+  }
+}

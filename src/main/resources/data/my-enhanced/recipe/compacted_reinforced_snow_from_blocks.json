@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients" : [
+    "minecraft:snow_block",
+    "minecraft:snow_block",
+    "minecraft:gravel"
+  ],
+  "result" : {
+    "id" : "my-enhanced:compacted_reinforced_snow",
+    "count" : 2
+  }
+}
